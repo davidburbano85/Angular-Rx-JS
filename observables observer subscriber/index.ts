@@ -26,7 +26,7 @@ const myObservable = new Observable
     (
         subscriber =>
             {
-                subscriber.next("holis");
+                subscriber.next(7);
                 subscriber.next(10);
                 subscriber.next(20);
                 subscriber.error("hola soy un error");
